@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Minor Change Me",
+  "description": "This extension automatically checks the 'Minor change' checkbox when you edit pages on Confluence.",
+  "icons": { "128": "icon.png" },
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/pages/editpage*", "http://*/pages/editpage*"],
+      "js": ["minor.js"]
+    }
+  ]
+
+}
