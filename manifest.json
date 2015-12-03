@@ -2,9 +2,9 @@
   "manifest_version": 2,
 
   "name": "Minor Change Me",
-  "description": "This extension automatically checks the 'Minor change' checkbox when you edit pages on Confluence.",
+  "description": "This extension automatically unchecks 'Notify watchers' (or checks 'Minor change') when you edit pages on Confluence.",
   "icons": { "128": "icon.png" },
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {
