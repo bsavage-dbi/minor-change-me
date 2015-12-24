@@ -4,7 +4,7 @@
   "name": "Minor Change Me",
   "description": "This extension automatically unchecks 'Notify watchers' (or checks 'Minor change') when you edit pages on Confluence.",
   "icons": { "128": "icon.png" },
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
